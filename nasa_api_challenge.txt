@@ -1,0 +1,27 @@
+https://api.nasa.gov/
+
+homework challenge...
+
+1   write a script to get the NASA astronomy picture of the day
+    display the text on screen
+    save the picture file to disk
+        (don't need a key if you are making a small number of requests)
+        APOD - Astronomy picture of the day
+        https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY
+
+
+    bonus challenge : get pictures from previous 10 days:
+            "date":"2023-02-01"
+
+
+
+
+2   write a script that indicates if we are in danger of being squashed by an asteroid colliding with earth
+    call the neows service - use today's date for both start and end date
+    examine the response
+    find any records that indicate "is potentially hazardous asteroid" is "true"
+    list the names of the hazardous asteroids
+
+    Asteroids - NeoWs
+    https://api.nasa.gov/neo/rest/v1/feed?start_date=2015-09-07&end_date=2015-09-08&api_key=DEMO_KEY
+    "is_potentially_hazardous_asteroid":true
